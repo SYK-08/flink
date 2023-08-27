@@ -75,7 +75,7 @@ Prerequisites for building Flink:
 ```
 git clone https://github.com/apache/flink.git
 cd flink
-./mvnw clean package -DskipTests # this will take up to 10 minutes
+./mvnw clean package -DskipTests # This will take up to 10 minutes
 ```
 
 Flink is now installed in `build-target`.
@@ -88,7 +88,7 @@ To build unit tests with Java 8, use Java 8u51 or above to prevent failures in u
 The Flink committers use IntelliJ IDEA to develop the Flink codebase.
 We recommend IntelliJ IDEA for developing projects that involve Scala code.
 
-Minimal requirements for an IDE are:
+The minimal requirements for an IDE are:
 * Support for Java and Scala (also mixed projects)
 * Support for Maven with Java and Scala
 
@@ -105,10 +105,10 @@ Check out our [Setting up IntelliJ](https://nightlies.apache.org/flink/flink-doc
 ### Eclipse Scala IDE
 
 **NOTE:** From our experience, this setup does not work with Flink
-due to deficiencies of the old Eclipse version bundled with Scala IDE 3.0.3 or
+due to deficiencies in the old Eclipse version bundled with Scala IDE 3.0.3 or
 due to version incompatibilities with the bundled Scala version in Scala IDE 4.4.1.
 
-**We recommend to use IntelliJ instead (see above)**
+**We recommend using IntelliJ instead (see above)**
 
 ## Support
 
@@ -134,5 +134,5 @@ This article describes [how to contribute to Apache Flink](https://flink.apache.
 
 ## About
 
-Apache Flink is an open source project of The Apache Software Foundation (ASF).
+Apache Flink is an open-source project of The Apache Software Foundation (ASF).
 The Apache Flink project originated from the [Stratosphere](http://stratosphere.eu) research project.
